@@ -1,4 +1,3 @@
-version: "3.8"
 services:
   windows:
     image: dockurr/windows
@@ -7,8 +6,8 @@ services:
       VERSION: "10"
       USERNAME: "admin"
       PASSWORD: "Admin1"
-      RAM_SIZE: "16G"
-      CPU_CORES: "24"
+      RAM_SIZE: "4G"
+      CPU_CORES: "12"
       DISK_SIZE: "600G"
       DISK2_SIZE: "200G"
     devices:
